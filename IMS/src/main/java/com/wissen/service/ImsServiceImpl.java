@@ -182,6 +182,7 @@ public class ImsServiceImpl implements ImsService {
 
     public Boolean saleValidation (SaleInstance saleInstance){
         Product res = null;
+
         if (saleInstance.getAmount() <= 0) return false;
 
         res = productRepository.findOneByName(saleInstance.getProductName());
@@ -232,7 +233,7 @@ public class ImsServiceImpl implements ImsService {
     @Override
     public Boolean performSale(Sale sale) {
         System.out.println(sale);
-
+        if(sale.getEntries().size()==0)return false;
         double total = 0;
         for (SaleInstance saleInstance : sale.getEntries()) {
             if (!saleValidation(saleInstance)) {

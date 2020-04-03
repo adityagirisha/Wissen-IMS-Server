@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f566fb8-c48c-415f-a83b-e906b4201291" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wissen/service/ImsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wissen/service/ImsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/wissen/service/ImsServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wissen/service/ImsServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wissen/service/ImsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wissen/service/ImsServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +92,7 @@
       <recent name="C:\MyStuff\WorkSpace\IMS\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.app">
+  <component name="RunManager" selected="JUnit.ImsServiceImplTest">
     <configuration name="ImsServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IMS" />
       <extension name="coverage">
@@ -108,6 +104,22 @@
       <option name="PACKAGE_NAME" value="com.wissen.service" />
       <option name="MAIN_CLASS_NAME" value="com.wissen.service.ImsServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImsServiceImplTest.performOrderWhenValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wissen.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wissen.service" />
+      <option name="MAIN_CLASS_NAME" value="com.wissen.service.ImsServiceImplTest" />
+      <option name="METHOD_NAME" value="performOrderWhenValid" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,7 +156,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImsServiceImplTest.performSaleWhenInvalidAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImsServiceImplTest.performSaleWhenValidWhenListEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IMS" />
       <extension name="coverage">
         <pattern>
@@ -154,23 +166,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.wissen.service" />
       <option name="MAIN_CLASS_NAME" value="com.wissen.service.ImsServiceImplTest" />
-      <option name="METHOD_NAME" value="performSaleWhenInvalidAmount" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImsServiceImplTest.performSaleWhenValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IMS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wissen.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wissen.service" />
-      <option name="MAIN_CLASS_NAME" value="com.wissen.service.ImsServiceImplTest" />
-      <option name="METHOD_NAME" value="performSaleWhenValid" />
+      <option name="METHOD_NAME" value="performSaleWhenValidWhenListEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,19 +183,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.ImsServiceImplTest" />
-      <item itemvalue="JUnit.ImsServiceImplTest.performSaleWhenInvalidAmount" />
       <item itemvalue="JUnit.ImsServiceImplTest.performSaleWhenGreatAmount" />
-      <item itemvalue="JUnit.ImsServiceImplTest.performSaleWhenValid" />
       <item itemvalue="JUnit.ImsServiceImplTest.performSaleWhenExactAmount" />
       <item itemvalue="Spring Boot.app" />
+      <item itemvalue="JUnit.ImsServiceImplTest.performSaleWhenValidWhenListEmpty" />
+      <item itemvalue="JUnit.ImsServiceImplTest.performOrderWhenValid" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ImsServiceImplTest.performSaleWhenExactAmount" />
-        <item itemvalue="JUnit.ImsServiceImplTest.performSaleWhenValid" />
-        <item itemvalue="JUnit.ImsServiceImplTest.performSaleWhenGreatAmount" />
-        <item itemvalue="JUnit.ImsServiceImplTest.performSaleWhenInvalidAmount" />
         <item itemvalue="JUnit.ImsServiceImplTest" />
+        <item itemvalue="JUnit.ImsServiceImplTest.performSaleWhenValidWhenListEmpty" />
+        <item itemvalue="JUnit.ImsServiceImplTest.performOrderWhenValid" />
+        <item itemvalue="JUnit.ImsServiceImplTest.performSaleWhenGreatAmount" />
+        <item itemvalue="JUnit.ImsServiceImplTest.performSaleWhenExactAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -266,6 +262,9 @@
       <workItem from="1583904707790" duration="193000" />
       <workItem from="1583919704315" duration="31000" />
       <workItem from="1585908691665" duration="1863000" />
+      <workItem from="1585925618854" duration="37000" />
+      <workItem from="1585925928306" duration="10000" />
+      <workItem from="1585927145129" duration="735000" />
     </task>
     <servers />
   </component>
@@ -317,22 +316,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583904774677" />
-    <state width="1323" height="363" key="GridCell.Tab.0.bottom" timestamp="1585910674143">
+    <state width="1323" height="363" key="GridCell.Tab.0.bottom" timestamp="1585927910109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="363" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585910674143" />
-    <state width="1323" height="363" key="GridCell.Tab.0.center" timestamp="1585910674143">
+    <state width="1323" height="363" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585927910109" />
+    <state width="1323" height="363" key="GridCell.Tab.0.center" timestamp="1585927910109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="363" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585910674143" />
-    <state width="1323" height="363" key="GridCell.Tab.0.left" timestamp="1585910674143">
+    <state width="1323" height="363" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585927910109" />
+    <state width="1323" height="363" key="GridCell.Tab.0.left" timestamp="1585927910109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="363" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585910674143" />
-    <state width="1323" height="363" key="GridCell.Tab.0.right" timestamp="1585910674143">
+    <state width="1323" height="363" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585927910109" />
+    <state width="1323" height="363" key="GridCell.Tab.0.right" timestamp="1585927910109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="363" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585910674143" />
+    <state width="1323" height="363" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585927910109" />
     <state width="1323" height="363" key="GridCell.Tab.1.bottom" timestamp="1585909244768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -438,7 +437,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/wissen/service/ImsServiceImpl.java</url>
-          <line>297</line>
+          <line>298</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
