@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.wissen.service.ImsServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 2.869 s <<< FAILURE! - in com.wissen.service.ImsServiceImplTest
+performSaleWhenValidWhenListEmpty(com.wissen.service.ImsServiceImplTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.wissen.service.ImsServiceImplTest.performSaleWhenValidWhenListEmpty(ImsServiceImplTest.java:526)
+
+performOrderWhenValid(com.wissen.service.ImsServiceImplTest)  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.wissen.service.ImsServiceImplTest.performOrderWhenValid(ImsServiceImplTest.java:411)
+

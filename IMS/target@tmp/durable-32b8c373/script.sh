@@ -1,0 +1,1 @@
+java -jar IMS-1.0-SNAPSHOT.jar
